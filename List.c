@@ -153,6 +153,7 @@ void ListErast(LTNode* pos)
 	
 	free(pos);
 	pos = NULL;
+	free(pos);
 }
 
 void ListDestroy(LTNode* phead)
