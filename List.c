@@ -153,6 +153,7 @@ void ListErast(LTNode* pos)
 	
 	free(pos);
 	pos = NULL;
+	free(pos);
 }
 
 void ListDestroy(LTNode* phead)
@@ -163,8 +164,8 @@ void ListDestroy(LTNode* phead)
 	while (cur != phead)
 	{
 		LTNode* next = cur;
-		free(next);
 		cur = cur->next;
+		free(next);
 	}
 	free(phead);
 }

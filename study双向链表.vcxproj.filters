@@ -18,7 +18,7 @@
     <ClCompile Include="List.c">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="Text.c">
+    <ClCompile Include="Test.c">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
